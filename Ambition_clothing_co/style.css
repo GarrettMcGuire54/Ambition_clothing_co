@@ -124,9 +124,25 @@ html {
 
 /* End of Navbar */
 
-/* Shopping Section */
+/* Section 2 */
 
 .section-2 {
+    width: 100%;
+    height: 150vh;
+    background:
+    url(/images/snowy.jpg) center no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+/* Section 3/Shopping Section */
+
+.section-3 {
     width: 100%;
     height: 100%;
     padding: 10rem 0;
@@ -148,7 +164,6 @@ html {
     align-items: center;
     margin: 1rem;
     background-color: #fff;
-    box-shadow: 0.3rem 0.3rem 0.5rem #777;
     position: relative;
     overflow: hidden;
     transition: box-shadow 0.5s;
@@ -181,7 +196,7 @@ html {
   
   .project-technologies {
     font-size: 1.8rem;
-    color: blueviolet;
+    color: red;
   }
   
   .shirt-img {
@@ -198,7 +213,7 @@ html {
     font-weight: 500;
     color: #333;
     letter-spacing: 0.1rem;
-    border: 0.3rem solid blueviolet;
+    border: 0.3rem solid red;
     padding: 0 1rem;
     background-color: #fff;
     position: absolute;
@@ -210,4 +225,4 @@ html {
     bottom: 5rem;
     transition: bottom 0.3s 0.3s;
   }
-  /* End of Section 3 */
+  /* End of Section 2/shopping */

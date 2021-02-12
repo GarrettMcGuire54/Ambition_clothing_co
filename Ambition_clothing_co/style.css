@@ -1,9 +1,8 @@
 * {
     margin: 0;
     padding:0;
-    outline:none;
+    outline: none;
     box-sizing: border-box;
-    text-dectoration: none;
     list-style-type: none;
     font-family:'Courier New', Courier, monospace;
     font-weight: 400;
@@ -37,7 +36,7 @@ html {
     width: 100%;
     height: 100vh;
     background:
-    url(images/background.JPG) center no-repeat;
+    url(background.JPG) center no-repeat;
     background-size: cover;
     flex-direction: column;
 }

@@ -125,19 +125,15 @@ html {
 /* End of Navbar */
 
 /* Section 2 */
-
 .section-2 {
-    width: 100%;
-    height: 150vh;
-    background:
-    url(/images/snowy.jpg) center no-repeat;
-    background-size: cover;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: xx-large;
-    font-weight: 800;
+  width:100%;
+  height: 150vh;
+  background: url(/images/snowy.jpg) center no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  align-itmes: center;
+  font-size: xx-large;
+  font-weight: 800;
 }
 
 /* Section 3/Shopping Section */

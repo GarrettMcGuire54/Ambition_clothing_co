@@ -131,7 +131,7 @@ html {
   background: url(/images/snowy.jpg) center no-repeat;
   background-size: cover;
   flex-direction: column;
-  align-itmes: center;
+  align-items: center;
   font-size: xx-large;
   font-weight: 800;
 }

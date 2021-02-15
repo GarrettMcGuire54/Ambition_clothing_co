@@ -223,7 +223,32 @@ html {
   }
   /* End of Section 2/shopping */
 
-  /* Footer */
+  .section-4 {
+      width: 100%;
+      height: 100%;
+      padding: 10rem 0;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .shirts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.5s;
+    height: 500px;
+    width: 450px;
+  }
+
+  /* section 5 */
+
   .section-5 {
     width: 100%;
     height: 40vh;
@@ -233,6 +258,7 @@ html {
   
   .social-media {
     margin-bottom: 5rem;
+   
   }
   
   .social-media-link {

@@ -238,17 +238,7 @@ html {
    width: 400px;
   }
 
-  .black {
-    margin: 100px;
-    z-index: 1;
-  }
-
-  .green {
-    margin right: 100px;
-    z-index: 2;
-  }
-
-  /* section 5 */
+   /* section 5 */
 
   .section-5 {
     width: 100%;

@@ -186,13 +186,13 @@ html {
   .project-name {
     font-size: 3rem;
     font-weight: 700;
-    color: grey;
+    color: red;
     text-transform: capitalize;
   }
   
   .project-technologies {
     font-size: 1.8rem;
-    color: red;
+    color: black;
   }
   
   .shirt-img {

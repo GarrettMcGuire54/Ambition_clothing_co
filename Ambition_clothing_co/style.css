@@ -223,30 +223,6 @@ html {
   }
   /* End of Section 2/shopping */
 
-  .material {
-      width: 100%;
-      height: 100%;
-      padding: 10rem 0;
-      background-color: #fff;
-      display: flex;
-      flex-direction: column;
-      
-  }
-
-  .material-img {
-   width: 60rem;
-   align-items: left;
-   display: flex;
-   position: relative;
-   object-fit: contain;
-   align-self: flex-start;
-  }
-  
-  .material-text {
-    align-items: right;
-  }
-  
-  
    /* section 5 */
 
   .section-5 {

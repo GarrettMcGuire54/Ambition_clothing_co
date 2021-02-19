@@ -39,19 +39,18 @@ html {
     url(/images/background.JPG) center no-repeat;
     background-size: cover;
     flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: xx-large;
-    font-weight: 800;
 }
 
 .location {
     font-size:2rem;
     color:grey;
     margin: 5rem 0;
-    padding: 0.5rem 3 rem;
-    letter-spacing: 03rem;
+    padding: 0.5rem 3rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    border-bottom: 0.3rem solid #fff;
+    text-shadow: 0.2rem 0.2rem 1rem #555;
     transform: skew(-10deg);
 }
 

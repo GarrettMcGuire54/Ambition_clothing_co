@@ -33,25 +33,23 @@ html {
 
 /* Section 1 */
 .section-1 {
-    width: 100%;
-    height: 100vh;
-    background:
-    url(/images/background.JPG) center no-repeat;
-    background-size: cover;
-    flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background: 
+  url(/images/background.JPG) center no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
 }
 
 .location {
-    font-size:2rem;
-    color:grey;
-    margin: 5rem 0;
-    padding: 0.5rem 3rem;
-    margin-bottom: 5rem;
-    text-transform: uppercase;
-    letter-spacing: 1rem;
-    border-bottom: 0.3rem solid #fff;
-    text-shadow: 0.2rem 0.2rem 1rem #555;
-    transform: skew(-10deg);
+  font-size: 2rem;
+  color: #fff;
+  background-color: black;
+  margin: 5rem 0;
+  padding: 0.5rem 3rem;
+  letter-spacing: 0.3rem;
+  transform: skew(-10deg);
 }
 
 .section-1-btn {

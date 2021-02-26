@@ -1,34 +1,35 @@
+/* Reset and Common Styles */
 * {
-    margin: 0;
-    padding: 0;
-    outline: none;
-    box-sizing: border-box;
-    list-style-type: none;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 400;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
 }
 
 html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-heading {
-    font-size: 5rem;
-    color: #333;
-    text-transform: uppercase;
-    letter-spacing: 0.5rem;
-    margin-bottom: 15rem;
-    border-bottom: 0.3rem solid#333;
-    text-shadow: 0.2rem 0.2rem 0.5rem #555;
+  font-size: 5rem;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-bottom: 15rem;
+  border-bottom: 0.3rem solid #333;
+  text-shadow: 0.2rem 0.2rem 0.5rem #555;
 }
-
 /* End of Reset and Common Styles */
 
 /* Section 1 */
@@ -41,84 +42,92 @@ html {
   flex-direction: column;
   align-items: center;
 }
+.trident {
+  margin: 2rem;
+  padding: 2rem;
+}
 
 .location {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  background-color:;
+  padding: 0 3rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  border-bottom: 0.3rem solid #fff;
+  text-shadow: 0.2rem 0.2rem 1rem #555;
+  transform: skew(-10deg);
+  letter-spacing: 3rem;
+}
+
+.person-name {
   font-size: 2rem;
   color: #fff;
-  background-color: black;
+  background-color: ;
   margin: 5rem 0;
   padding: 0.5rem 3rem;
   letter-spacing: 0.3rem;
   transform: skew(-10deg);
 }
 
-.section-1-btn {
-    font-size: 1.7rem;
-    font-weight: 700;
-    color: #333;
-    background-color:#fff;
-    border: 0.3rem solid#333;
-    padding: 0.5rem 1rem;
-    text-transform: uppercase;
-    letter-spacing: 0.3rem;
-}
 
 /* End of Section 1 */
 
-/* Navbar*/
-
+/* Navbar */
 .navbar {
-    width: 100%;
-    height: 4rem;
-    background-color: black;
-    box-shadow: 0.2rem 0.2rem 0.5rem #555;
-    position: absolute;
-    z-index: 300;
+  width: 100%;
+  height: 4rem;
+  background-color: black;
+  box-shadow: 0.2rem 0.2rem 0.5rem #555;
+  position: absolute;
+  z-index: 300;
+  
 }
 
 .sticky {
-    position: fixed;
-    top: 0;
+  position: fixed;
+  top: 0;
 }
 
 .navbar-link {
-    font-size: 1.7rem;
-    font-weight: 600;
-    color: #fff;
-    margin: 0 3rem;
-    letter-spacing: 0.3rem;
-    text-transform: uppercase;
-    position: relative;
-    transition: color 0.2s;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0 3rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  position: relative;
+  transition: color 0.2s;
 }
 
 .change.navbar-link {
-    color: #fff;
+  color: #fff;
 }
 
 .navbar-link:hover {
-    color:#fff;
+  color: #fff;
 }
 
 .navbar-link::before {
-    content: "";
-    width: 0;
-    height: 0.2rem;
-    background-color: #fff;
-    position: absolute;
-    right: -15%;
-    bottom: 0.3rem;
-    transition: width 0.2s;
+  content: "";
+  width: 0;
+  height: 0.2rem;
+  background-color: #fff;
+  position: absolute;
+  right: -15%;
+  bottom: -0.3rem;
+  transition: width 0.2s;
 }
 
 .change.navbar-link::before {
-    width: 130%;
+  width: 130%;
 }
 
 .navbar-link:hover::before {
-    width: 130%;
+  width: 130%;
 }
-
 /* End of Navbar */
 
 /* Section 2 */
